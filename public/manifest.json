@@ -1,0 +1,12 @@
+{
+  "name": "Sh1wOo Homescreen",
+  "description": "This is a Homescreen for a browser.",
+  "version": "0.2",
+  "manifest_version": 3,
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
